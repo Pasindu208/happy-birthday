@@ -1,5 +1,5 @@
 <div align="center">
-<a href="#"><img title="💕 *KUMIKO* 💕" src="https://github.com/udnisap208/KUMIKO-bot/blob/master/media/gif/123.jpg"></a>
+<a href="#"><img title="💕 *KUMIKO* 💕" src="https://github.com/udnisap208/KUMIKO-bot/blob/master/media/gif/123.jpg?raw=true"></a>
 </p>
 
 <p align="center">
