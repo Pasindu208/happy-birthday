@@ -50,24 +50,24 @@
   <h2>💕 *KUMIKO* 💕</h1>
 </div>
 
-
+<br>
 ----
-![Docker Pulls](https://img.shields.io/docker/pulls/fusuf/whatsasena?style=flat-square) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/fusuf/whatsasena?style=flat-square)
+
   
 ## About
 **💕 *KUMIKO* 💕 ,** is a WhatsApp helper bot written by Thevindu Hansara. Does not log into your account It is written on WhatsApp Web API.
-
+<br>
 ## Setup
-
+<br>
 ## Simple Method
-
+<br>
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@phaticusthiccy/WhatsAsena-QR)
-
+<br>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/udnisap208/kyouko)
-
-## F.A.Q
-Answer a few frequently asked questions;
-### Can you read my messages?
+<br>
+## F.A.Q<br>
+Answer a few frequently asked questions;<br>
+### Can you read my messages?<br>
 This project is open source so all the codes are clear. Neither less nor more; you can look what you want. **We absolutely do not have access to your accounts.**
 
 ### What about our security?
