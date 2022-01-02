@@ -320,9 +320,10 @@ body {
 	margin: 0;
 }
 
-
 canvas {
 	cursor: crosshair;
-	display: block;
+	display: inherit ;
+	background: #0f0e22;
 }
+
 
