@@ -315,7 +315,14 @@ a.author{
   }
 }
 
+body {
+	background: #222048;
+	margin: 0;
+}
+
+
 canvas {
 	cursor: crosshair;
 	display: block;
 }
+
