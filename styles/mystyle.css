@@ -314,3 +314,8 @@ a.author{
     opacity: 1;
   }
 }
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
