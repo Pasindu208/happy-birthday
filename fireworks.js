@@ -20,10 +20,10 @@ var canvas = document.getElementById( 'canvas' ),
 		// particle collection
 		particles = [],
 		// starting hue
-		hue = 120,
+		hue = 1420,
 		// when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
-		limiterTotal = 5,
-		limiterTick = 0,
+		limiterTotal = 1,
+		limiterTick = 10,
 		// this will time the auto launches of fireworks, one launch per 80 loop ticks
 		timerTotal = 80,
 		timerTick = 0,
@@ -149,7 +149,7 @@ function Particle( x, y ) {
 	this.gravity = 1;
 	// set the hue to a random number +-50 of the overall hue variable
 	this.hue = random( hue - 50, hue + 50 );
-	this.brightness = random( 50, 80 );
+	this.brightness = random( 50, 20 );
 	this.alpha = 1;
 	// set how fast the particle fades out
 	this.decay = random( 0.015, 0.03 );
