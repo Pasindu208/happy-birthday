@@ -20,7 +20,7 @@ var canvas = document.getElementById( 'canvas' ),
 		// particle collection
 		particles = [],
 		// starting hue
-		hue = 120,
+		hue = 300,
 		// when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
 		limiterTotal = 5,
 		limiterTick = 0,
