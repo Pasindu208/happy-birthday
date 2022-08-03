@@ -20,12 +20,12 @@ var canvas = document.getElementById( 'canvas' ),
 		// particle collection
 		particles = [],
 		// starting hue
-		hue = 1420,
+		hue = 120,
 		// when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
-		limiterTotal = 1,
-		limiterTick = 10,
+		limiterTotal = 5,
+		limiterTick = 0,
 		// this will time the auto launches of fireworks, one launch per 80 loop ticks
-		timerTotal = 60,
+		timerTotal = 80,
 		timerTick = 0,
 		mousedown = false,
 		// mouse x coordinate,
@@ -147,9 +147,9 @@ function Particle( x, y ) {
 	this.friction = 0.95;
 	// gravity will be applied and pull the particle down
 	this.gravity = 1;
-	// set the hue to a random number +-50 of the overall hue variable
-	this.hue = random( hue - 50, hue + 50 );
-	this.brightness = random( 50, 20 );
+	// set the hue to a random number +-20 of the overall hue variable
+	this.hue = random( hue - 20, hue + 20 );
+	this.brightness = random( 50, 80 );
 	this.alpha = 1;
 	// set how fast the particle fades out
 	this.decay = random( 0.015, 0.03 );
@@ -200,10 +200,7 @@ function loop() {
 	requestAnimFrame( loop );
 	
 	// increase the hue to get different colored fireworks over time
-	//hue += 0.5;
-  
-  // create random color
-  hue= random(0, 360 );
+	hue += 0.5;
 	
 	// normally, clearRect() would be used to clear the canvas
 	// we want to create a trailing effect though
