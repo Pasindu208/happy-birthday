@@ -78,7 +78,7 @@ body{
  font-family: "Pacifico",cursive;
 }
 
-h1 {
+h3 {
   position: fixed;
   text-align: center;
   width: 100%;
@@ -101,7 +101,7 @@ span {
   font-size: 70px;
 }
 
-h2 {  
+h1 {  
   position: fixed;
   text-align: center;
   width: 100%;
