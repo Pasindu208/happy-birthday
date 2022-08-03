@@ -1,27 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Pacifico');
 
-.mobile {
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  top: 50px;
-  font-size: 90px;
-  display: block;
-}
 
-h1, h2, span {
-  display: none;
-}
-
-@media screen and (min-width: 670px) {
-  
-  .mobile {
-    display: none;
-  }
-  
-  h1, h2, span {
-  display: block;
-}
  $colors: #ef8d22, #feff28, #2bd8ff, #fc85e1;
 $particles: 50;
 $width: 500;
