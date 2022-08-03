@@ -13,7 +13,7 @@ html{
 .feliz{
   width: 100%;
   font-family: 'Pacifico', cursive;
-  font-size: 90px;
+  font-size: 100px;
   font-weight: 700;
   color: #f48fb1;
   text-align: center;
@@ -73,7 +73,7 @@ span.sete:before{
   width: 100px;
   height: 100px;
   display: block;
-  background: #f5ac0f;
+  background: #e8d57a;
   border-radius: 50%;
   position: absolute;
   top: 50%;
